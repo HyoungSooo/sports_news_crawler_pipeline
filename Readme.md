@@ -1,6 +1,15 @@
 # 네이버 해외축구 뉴스 크롤러 파이프라인
 네이버 해외축구 뉴스를 크롤링해서 엘라스틱 서치에 저장하는 파이프라인입니다.
 
+### how to use
+```shell
+docker-compose up
+
+go to -> 127.0.0.1:8888
+
+copy pipeline.ipynb to jupyter server
+```
+
 ### Versions
 * python==3.9.8
 * elasticsearch==7.10.1
